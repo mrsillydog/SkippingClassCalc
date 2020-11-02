@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Skipping Class Calculator</title>
+        <h1>How much money do you waste when you skip class?</h1>
+        <!-- <style>
+                body {
+                  background-image: url('burnmoney.jpg');
+                  background-size: 50%;
+                }
+        </style> -->
+    </head>
+    <body>
+        <h3>I'm glad you asked.</h3>
+        <p>First, how much do you pay in tuition, in dollars?</p>
+        <label for="tuition">$</label>
+        <input type="number" id="tuition" autofocus>
+        <p>Second, how many credit hours are you taking total?</p>
+        <input type="number" id="credits">
+        <p>Third, how many credit hours is the class your skipping?</p>
+        <input type="number" id="classCredits">
+        <p>Fourth, how many times a week does the class you're skipping meet?</p>
+        <input type="number" id="timesPerWeek">
+        <p>
+            <button type="button" id="calculateButton" onclick="calculate()">Calculate!</button>
+        </p>
+        <p id="results"></p>
+    </body>
+    <script src="calculator.js"></script>
+</html>
