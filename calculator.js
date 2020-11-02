@@ -1,4 +1,8 @@
-// Written by Ian Adams, Fall 2020
+/** calculator.js provides a method triggered by clicking the Calculate! button on the web page.
+ * Sets the "results" element's inner HTML either to a message providing $ wasted per class skipped or an error message.
+ * Written by mrsillydog, Fall 2020
+ */
+
 // is it kind of unnecessary to have an external js doc with a single function? yes
 // is it useful for learning purposes? yes
 
